@@ -56,3 +56,25 @@ An example on how to create a comment and how you should use it:
 // a simple comment in sass
 $default-color: #096;
 ```
+
+**Nesting**
+
+An example on how to nesting CSS selectors:
+
+```scss
+.panel {
+  color: #bbb;
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+```
