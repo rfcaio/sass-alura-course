@@ -78,3 +78,17 @@ An example on how to nesting CSS selectors:
   }
 }
 ```
+
+**Import**
+
+An example on how to import Sass files (the extension `.scss` is optional). `CSS` files can be imported as well:
+
+```scss
+@import 'normalize.css';
+
+@import 'mixin.scss';
+
+// or
+
+@import 'mixin';
+```
