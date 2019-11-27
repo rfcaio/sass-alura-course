@@ -92,3 +92,14 @@ An example on how to import Sass files (the extension `.scss` is optional). `CSS
 
 @import 'mixin';
 ```
+
+**Color functions**
+
+An example on how to use Sass color functions:
+
+```scss
+body {
+  background-color: darken(cyan, 10);
+  color: lighten(gold, 25);
+}
+```
