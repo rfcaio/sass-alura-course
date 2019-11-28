@@ -103,3 +103,20 @@ body {
   color: lighten(gold, 25);
 }
 ```
+
+**Placeholders**
+
+An example on how to create a placeholder and how you should use it:
+
+```scss
+%default-border {
+  border: .25rem solid #bbb;
+}
+
+.btn {
+  .btn-default {
+    @extend %default-border;
+    background-color: #fff;
+  }
+}
+```
