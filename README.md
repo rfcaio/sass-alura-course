@@ -120,3 +120,39 @@ An example on how to create a placeholder and how you should use it:
   }
 }
 ```
+
+**Media queries**
+
+An example on how to create a media query inside a CSS selector:
+
+```scss
+.panel {
+  width: 100%;
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  @media(max-width: 768px) {
+    width: 96%;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
+```
+
+An example on how you can use a media query as a variable:
+
+```scss
+$medium: '(max-width: 768px)';
+
+.menu {
+  width: 50%;
+
+  @media #{$medium} {
+    width: 100%;
+  }
+}
+```
