@@ -4,7 +4,7 @@
 
 ## Examples
 
-**Variables**
+### Variables
 
 An example on how to create a variable and how you should use it:
 
@@ -16,7 +16,7 @@ $default-color: #096;
 }
 ```
 
-**Mixins**
+### Mixins
 
 An example on how to create a mixin and how you should use it:
 
@@ -48,7 +48,7 @@ An example on how you can set parameters in mixins:
 }
 ```
 
-**Comments**
+### Comments
 
 An example on how to create a comment and how you should use it:
 
@@ -57,7 +57,7 @@ An example on how to create a comment and how you should use it:
 $default-color: #096;
 ```
 
-**Nesting**
+### Nesting
 
 An example on how to nesting CSS selectors:
 
@@ -79,7 +79,7 @@ An example on how to nesting CSS selectors:
 }
 ```
 
-**Import**
+### Import
 
 An example on how to import Sass files (the extension `.scss` is optional). `CSS` files can be imported as well:
 
@@ -93,7 +93,7 @@ An example on how to import Sass files (the extension `.scss` is optional). `CSS
 @import 'mixin';
 ```
 
-**Color functions**
+### Color functions
 
 An example on how to use Sass color functions:
 
@@ -104,7 +104,7 @@ body {
 }
 ```
 
-**Placeholders**
+### Placeholders
 
 An example on how to create a placeholder and how you should use it:
 
@@ -121,7 +121,7 @@ An example on how to create a placeholder and how you should use it:
 }
 ```
 
-**Media queries**
+### Media queries
 
 An example on how to create a media query inside a CSS selector:
 
